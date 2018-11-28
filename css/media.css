@@ -1,5 +1,10 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+	/* Header Section Start */
+	.custom_navbar {
+		padding-top: 20px;
+	}
+	/* Header Section End */
 	/* Banner Section Start */
 	.silder_text {
 		margin-top: 30px;
@@ -69,7 +74,12 @@
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-		/* Banner Section Start */
+	/* Header Section Start */
+	.custom_navbar {
+		padding-top: 30px;
+	}
+	/* Header Section End */
+	/* Banner Section Start */
 	.silder_text {
 		margin-top: 70px;
 		width: 100%;
