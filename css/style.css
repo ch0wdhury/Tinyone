@@ -1,0 +1,159 @@
+/* Font File Integration */
+@font-face {
+    font-family: pt-sans_regular;
+    src: url(../fonts/pt-sans_regular.ttf);
+}
+@font-face {
+    font-family: pt-sans_bold;
+    src: url(../fonts/pt-sans_bold.ttf);
+}
+/* Font File Integration */
+html, body {
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* Header Section Start */
+header {
+	background-color: #FCDB00;
+}
+.custom_navbar {
+	padding-top: 50px;
+}
+.custom_nav li a {
+	font-family: pt-sans_bold;
+	font-size: 22px;
+	padding-left: 70px!important;
+	color: #000!important;
+	text-align: right;
+}
+/* Header Section End */
+/* Banner Section Start */
+.banner {
+	background-color: #FCDB00;
+}
+.custom_indicators li {
+	width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.silder_text {
+	margin-top: 120px;
+	width: 90%;
+}
+.silder_text h1 {
+	font-family: pt-sans_bold;
+	font-size: 32px;
+}
+.silder_text h5 {
+	font-family: pt-sans_regular;
+	font-size: 20px;
+}
+.silder_text p {
+	font-family: pt-sans_regular;
+	font-size: 16px;
+}
+.silder_text li {
+	margin-left: 10px;
+}
+.silder_text i {
+	font-size: 42px;
+}
+.slider_image {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+/* Banner Section End */
+/* Features Section Start */
+.common_title {
+	margin-top: 120px;
+}
+.common_title h1 {
+	font-family: pt-sans_bold;
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.common_title p {
+	font-family: pt-sans_regular;
+	font-size: 20px;
+	width: 85%;
+	margin: 0 auto;
+}
+.feature_content {
+	margin-top: 80px;
+}
+.feature_text h1 {
+	font-family: pt-sans_regular;
+	font-size: 22px;
+}
+.feature_text p {
+	font-family: pt-sans_regular;
+	font-size: 16px;
+}
+.mg_bottom {
+	margin-bottom: 120px;
+}
+/* Features Section End */
+/* Contact Section Start */
+.contact {
+	background-color: #000;
+}
+.for_color h1 {
+	color: #FCDB00;
+}
+.for_color p {
+	color: #898989;
+}
+.subscribe_form {
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+.subscribe_form form input {
+	font-family: pt-sans_regular;
+	font-size: 16px;
+	padding-left: 20px!important;
+}
+.custom_btn {
+	background-color: #FCDB00;
+	font-family: pt-sans_bold;
+	font-size: 16px;
+	padding: 10px 25px;
+	border: 1px solid #FCDB00;
+	transition: .5s ease;
+}
+.custom_btn:hover {
+	background-color: #000;
+	color: #FCDB00;
+}
+.social_icons a {
+	color: #FCDB00;
+	font-size: 42px;
+	margin: 0 10px;
+	transition: .5s ease;
+}
+.social_icons a:hover {
+	color: #fff;
+}
+/* Contact Section End */
+/* Footer Section Start */
+footer {
+	background-color: #000;
+}
+.footer_content {
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+.footer_content li {
+	font-family: pt-sans_regular;
+	font-size: 16px;
+	color: #fff;
+	transition: .5s ease;
+}
+.footer_content li:hover {
+	cursor: pointer;
+	color: #FCDB00;
+}
+/* Footer Section End */
