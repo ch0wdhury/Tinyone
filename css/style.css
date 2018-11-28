@@ -29,6 +29,10 @@ header {
 	padding-left: 70px!important;
 	color: #000!important;
 	text-align: right;
+	transition: .5s ease;
+}
+.custom_nav li a:hover {
+	color: #fff!important;
 }
 /* Header Section End */
 /* Banner Section Start */
