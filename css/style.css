@@ -55,13 +55,16 @@ header {
 .silder_text h5 {
 	font-family: pt-sans_regular;
 	font-size: 20px;
+	margin-top: 20px;
 }
 .silder_text p {
 	font-family: pt-sans_regular;
 	font-size: 16px;
+	margin-top: 20px;
 }
 .silder_text li {
 	margin-left: 10px;
+	margin-top: 20px;
 }
 .silder_text i {
 	font-size: 42px;
@@ -118,6 +121,7 @@ header {
 .subscribe_form form input {
 	font-family: pt-sans_regular;
 	font-size: 16px;
+	height: calc(2.875rem + 2px);
 	padding-left: 20px!important;
 }
 .custom_btn {
