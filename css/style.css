@@ -164,4 +164,8 @@ footer {
 	cursor: pointer;
 	color: #FCDB00;
 }
+.np_hover li:hover {
+	cursor: unset;
+	color: #fff;
+}
 /* Footer Section End */
